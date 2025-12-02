@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  task:
+    build: .
+    environment:
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+    volumes:
+      - ./results:/app/results
+    command: python run_eval.py --runs 10
+
+  test-grader:
+    build: .
+    command: python test_grader.py
+

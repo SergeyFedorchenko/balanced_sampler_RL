@@ -1,0 +1,100 @@
+{
+  "pass_rate": 0.1,
+  "avg_score": 0.18571428571428572,
+  "n_runs": 10,
+  "results": [
+    {
+      "passed": false,
+      "score": 0.0,
+      "feedback": "Failed to import solution: cannot import name 'BalancedBatchSampler' from partially initialized module 'solution' (most likely due to a circular import) (/var/folders/l1/fthrq4zx1l547vs_0z2r9prc0000gn/T/tmph4bqijpi/solution.py)",
+      "tests_passed": [],
+      "tests_failed": [],
+      "steps": 15
+    },
+    {
+      "passed": true,
+      "score": 1.0,
+      "feedback": "All tests passed!",
+      "tests_passed": [
+        "test_basic_functionality",
+        "test_batch_balance",
+        "test_all_samples_used",
+        "test_reproducibility",
+        "test_dataloader_compatibility",
+        "test_edge_cases",
+        "test_different_class_sizes"
+      ],
+      "tests_failed": [],
+      "steps": 15
+    },
+    {
+      "passed": false,
+      "score": 0.0,
+      "feedback": "No solution.py was written",
+      "steps": 15
+    },
+    {
+      "passed": false,
+      "score": 0.0,
+      "feedback": "Failed to import solution: cannot import name 'BalancedBatchSampler' from partially initialized module 'solution' (most likely due to a circular import) (/var/folders/l1/fthrq4zx1l547vs_0z2r9prc0000gn/T/tmpc2wc_z1q/solution.py)",
+      "tests_passed": [],
+      "tests_failed": [],
+      "steps": 15
+    },
+    {
+      "passed": false,
+      "score": 0.0,
+      "feedback": "Failed to import solution: cannot import name 'BalancedBatchSampler' from partially initialized module 'solution' (most likely due to a circular import) (/var/folders/l1/fthrq4zx1l547vs_0z2r9prc0000gn/T/tmpzj32_gn_/solution.py)",
+      "tests_passed": [],
+      "tests_failed": [],
+      "steps": 15
+    },
+    {
+      "passed": false,
+      "score": 0.0,
+      "feedback": "Failed to import solution: cannot import name 'BalancedBatchSampler' from partially initialized module 'solution' (most likely due to a circular import) (/var/folders/l1/fthrq4zx1l547vs_0z2r9prc0000gn/T/tmp5vqxcndu/solution.py)",
+      "tests_passed": [],
+      "tests_failed": [],
+      "steps": 15
+    },
+    {
+      "passed": false,
+      "score": 0.0,
+      "feedback": "Failed to import solution: cannot import name 'BalancedBatchSampler' from partially initialized module 'solution' (most likely due to a circular import) (/var/folders/l1/fthrq4zx1l547vs_0z2r9prc0000gn/T/tmp5elwtal3/solution.py)",
+      "tests_passed": [],
+      "tests_failed": [],
+      "steps": 15
+    },
+    {
+      "passed": false,
+      "score": 0.0,
+      "feedback": "No solution.py was written",
+      "steps": 15
+    },
+    {
+      "passed": false,
+      "score": 0.8571428571428571,
+      "feedback": "Passed 6/7 tests.\nFailed tests:\ntest_basic_functionality: Indices should be integers",
+      "tests_passed": [
+        "test_batch_balance",
+        "test_all_samples_used",
+        "test_reproducibility",
+        "test_dataloader_compatibility",
+        "test_edge_cases",
+        "test_different_class_sizes"
+      ],
+      "tests_failed": [
+        "test_basic_functionality: Indices should be integers"
+      ],
+      "steps": 15
+    },
+    {
+      "passed": false,
+      "score": 0.0,
+      "feedback": "Failed to import solution: cannot import name 'BalancedBatchSampler' from partially initialized module 'solution' (most likely due to a circular import) (/var/folders/l1/fthrq4zx1l547vs_0z2r9prc0000gn/T/tmpsi9rc3h1/solution.py)",
+      "tests_passed": [],
+      "tests_failed": [],
+      "steps": 15
+    }
+  ]
+}
